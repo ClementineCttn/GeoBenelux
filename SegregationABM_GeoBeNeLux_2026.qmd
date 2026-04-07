@@ -31,13 +31,15 @@ Segregation and contextual eﬀects differ throughout the day, as people move be
 
 > Eﬀects of spatial segregation on social outcomes need to be studied temporally (“around the clock”).
 
-In this article, we aim to understand the eﬀects of spatio-temporal social segregation on the diﬀusion of dietary behaviours, using an empirical agent-based model initialised on the Paris region.
+To understand the eﬀects of spatio-temporal social segregation on the diﬀusion of dietary behaviours, data can become unsufficient.
+
+> Empirical agent-based model initialised on the Paris region.
 
 ## Study design
 
--   we build a (mobile) synthetic population with data from two health & nutrition surveys conducted 6 years apart, data from the French census and origin-destination survey.
+-   (Mobile) **synthetic population** generated from two health & nutrition surveys + French census + origin-destination survey.
 
--   we combine scenarios of residential patterns with scenarios of daily mobility
+-   **Counterfactual** approach: combination of residential patterns and daily mobility scenarii
 
 | Location | 1A     | 1B     | 2A       | 2B     | 2C   |
 |----------|--------|--------|----------|--------|------|
@@ -310,7 +312,7 @@ sim %>%
 </div>
 :::
 
-## Conclusion {.scrollable .smaller}
+## Conclusion {.scrollable }
 
 1.  "beyond static segregation": daily activities at various locations affect individuals’ social exposure, interactions and behaviours, yet local policies most often consider only residential segregation
 
@@ -342,7 +344,8 @@ For more: [@cottineau2025agent]
 
 <div>
 
-This presentation: ![](figures/epj2.png)
+[This presentation](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
+![](figures/presentation.png)
 
 </div>
 
