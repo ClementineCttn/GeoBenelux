@@ -27,7 +27,7 @@ css: pres_files/style.css
 
 ## Beyond Static Segregation
 
-Segregation and contextual eﬀects differ throughout the day, as people move between locations in a city.
+Segregation and contextual eﬀects differ throughout the day, as people move between locations in a city [@le2017social]
 
 > Eﬀects of spatial segregation on social outcomes need to be studied temporally (“around the clock”).
 
@@ -37,7 +37,7 @@ To understand the eﬀects of spatio-temporal social segregation on the diﬀusi
 
 ## Study design
 
--   (Mobile) **synthetic population** generated from two health & nutrition surveys + French census + origin-destination survey.
+-   (Mobile) **synthetic population** generated from two health & nutrition surveys + French census + origin-destination survey [@mobiliscope].
 
 -   **Counterfactual** approach: combination of residential patterns and daily mobility scenarii
 
@@ -332,9 +332,33 @@ For more: [@cottineau2025agent]
 ::: {#refs}
 :::
 
+
+
 ## More about...
 
-::: {layout-ncol="3"}
+::: {layout-ncol="2"}
+
+<div>
+
+[ERC-SEGUE.nl](http://erc-segue.nl)
+
+![](pres_files/logo_1.png)
+
+</div>
+
+<div>
+
+[Mobiliscope](https://mobiliscope.cnrs.fr/en)
+![](figures/mobiliscope.png)
+
+</div>
+
+:::
+
+
+## More about...
+
+::: {layout-ncol="2"}
 <div>
 
 [This paper](https://doi.org/10.1140/epjds/s13688-025-00603-4)
@@ -347,13 +371,7 @@ For more: [@cottineau2025agent]
 [This presentation](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
 ![](figures/presentation.png)
 
-</div>
-
-<div>
-
-[ERC-SEGUE.nl](http://erc-segue.nl)
-
-![](pres_files/logo_1.png)
 
 </div>
+
 :::
