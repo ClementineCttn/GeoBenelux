@@ -48,9 +48,20 @@ To understand the eﬀects of spatio-temporal social segregation on the diﬀusi
 
 ## Synthetic data {.scrollable .smaller}
 
-\~8.77M agents, 16 sociodemographic groups, 8325 cells (1 km × 1 km)
+::: {.grid}
 
-![](figures/figure1.png){width="100%," fig-align="centre"}
+::: {.g-col-4}
+
+- \~8.77M agents
+- 18 sociodemographic groups (3 age x 3 edu x 2 sex)
+- 8325 cells (1 km × 1 km) 
+:::
+
+::: {.g-col-8}
+![](figures/figure1.png){width="150%," fig-align="centre"} 
+:::
+
+:::
 
 ## Health data 🍓🥒🥑🍉🫛
 
@@ -294,7 +305,7 @@ sim %>%
 
 -   agents do not evolve
 -   mechanisms left aside (interpersonal influence, life course tipping points, environments, perception)
--   opnion dynamic model = basic
+-   opinion dynamic model = basic
 -   hybrid temporality (3 day parts per year)
 
 </div>
@@ -312,7 +323,7 @@ sim %>%
 </div>
 :::
 
-## Conclusion {.scrollable }
+## Conclusion {.scrollable}
 
 1.  "beyond static segregation": daily activities at various locations affect individuals’ social exposure, interactions and behaviours, yet local policies most often consider only residential segregation
 
@@ -332,12 +343,9 @@ For more: [@cottineau2025agent]
 ::: {#refs}
 :::
 
-
-
 ## More about...
 
 ::: {layout-ncol="2"}
-
 <div>
 
 [ERC-SEGUE.nl](http://erc-segue.nl)
@@ -348,30 +356,23 @@ For more: [@cottineau2025agent]
 
 <div>
 
-[Mobiliscope](https://mobiliscope.cnrs.fr/en)
-![](figures/mobiliscope.png)
+[Mobiliscope](https://mobiliscope.cnrs.fr/en) ![](figures/mobiliscope.png)
 
 </div>
-
 :::
-
 
 ## More about...
 
 ::: {layout-ncol="2"}
 <div>
 
-[This paper](https://doi.org/10.1140/epjds/s13688-025-00603-4)
-![](figures/epj2.png)
+[This paper](https://doi.org/10.1140/epjds/s13688-025-00603-4) ![](figures/epj2.png)
 
 </div>
 
 <div>
 
-[This presentation](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
-![](figures/presentation.png)
-
+[This presentation](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026) ![](figures/presentation.png)
 
 </div>
-
 :::
